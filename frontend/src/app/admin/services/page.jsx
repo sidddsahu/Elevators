@@ -12,7 +12,7 @@ import {
   updateService,
   deleteService,
   clearError
-} from "../../../../store/slices/serviceSlice";
+} from "../../../store/slices/serviceSlice";
 import DataTable from "../components/DataTable";
 import ServiceFormModal from "../components/ServiceFormModal";
 import ExportButtons from "../components/ExportButtons";
