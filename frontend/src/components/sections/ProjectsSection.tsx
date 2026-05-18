@@ -416,11 +416,7 @@ function ProjectCard({
 export function ProjectsSection() {
   const [activeFilter] = useState('all')
 
-  const filtered = PROJECTS.filter(
-    (p) =>
-      activeFilter === 'all' ||
-      p.category === activeFilter
-  ).slice(0, 6)
+const filtered = PROJECTS.slice(0, 6)
 
   return (
     <section className="relative py-36 bg-[#050816] overflow-hidden">

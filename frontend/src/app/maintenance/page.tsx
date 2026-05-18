@@ -61,7 +61,7 @@
 
 // src/app/maintenance/page.tsx
 import type { Metadata } from 'next'
-import Link from 'next/link'
+// import Link from 'next/link'
 import { Reveal } from '@/components/ui/RevealSection'
 import { CTASection } from '@/components/sections/CTASection'
 

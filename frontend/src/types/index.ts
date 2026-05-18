@@ -20,8 +20,6 @@ export interface Project {
   id: string
   name: string
   location: string
-  image: string
-  // category: 'residential' | 'commercial' | 'healthcare' | 'hospitality' | 'retail' | 'industrial'
   tag: string
   detail: string
   year: string

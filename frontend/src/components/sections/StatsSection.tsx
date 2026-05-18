@@ -6,7 +6,7 @@ export function StatsSection() {
   return (
     <section className="border-t border-white/7 border-b border-white/7">
       <div className="grid grid-cols-2 lg:grid-cols-4 divide-x divide-y lg:divide-y-0 divide-white/7">
-        {STATS.map((stat, i) => (
+        {STATS.map((stat) => (
           <div
             key={stat.label}
             className="group relative bg-black hover:bg-graphite-2 transition-colors duration-400 p-10 lg:p-12 text-center overflow-hidden"

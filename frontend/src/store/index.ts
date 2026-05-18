@@ -1,13 +1,16 @@
-// src/store/index.ts
 import { configureStore } from '@reduxjs/toolkit'
 import uiReducer from './slices/uiSlice'
+
+import projectReducer from './slices/projectSlice'
+// ...import all other slices
 
 export const store = configureStore({
   reducer: {
     ui: uiReducer,
+    // ← add this
+    projects: projectReducer,  // ← add this
+    // ...all other slices
   },
-  middleware: (getDefaultMiddleware) =>
-    getDefaultMiddleware({ serializableCheck: false }),
 })
 
 export type RootState = ReturnType<typeof store.getState>

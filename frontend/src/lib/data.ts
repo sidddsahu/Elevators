@@ -380,9 +380,9 @@
 // ]
 
 import type {
-  Service, Project, Testimonial, BlogPost,
-  Job, StatItem, ProcessStep, FAQItem,
-  TechFeature, MaintenancePlan, SafetyStandard, NavItem,
+  Service, Project, Testimonial,
+   StatItem, ProcessStep, FAQItem,
+  TechFeature,  SafetyStandard, NavItem,
 } from '@/types'
 
 export const NAV_ITEMS: NavItem[] = [
@@ -675,49 +675,49 @@ export const SERVICES: Service[] = [
 export const PROJECTS: Project[] = [
   {
     id: '1', name: 'M.P. Mantralaya', location: 'Bhopal, Madhya Pradesh',
-    category: 'government', tag: 'Government · Bhopal',
+   tag: 'Government · Bhopal',
     detail: 'Passenger & Service Elevators', year: '2024',
     gradient: 'from-[#060614] via-[#0d0d28] to-[#0d0d1e]',
   },
   {
     id: '2', name: 'M.P. Vidhan Sabha', location: 'Bhopal, Madhya Pradesh',
-    category: 'government', tag: 'Government · Bhopal',
+    tag: 'Government · Bhopal',
     detail: 'Passenger Elevators', year: '2024',
     gradient: 'from-[#06140c] via-[#081208] to-[#0a1a0a]',
   },
   {
     id: '3', name: 'Police Housing Department', location: 'Madhya Pradesh',
-    category: 'government', tag: 'Government · M.P.',
+     tag: 'Government · M.P.',
     detail: 'Residential Elevators', year: '2023',
     gradient: 'from-[#1a0e0a] via-[#12080a] to-[#18060a]',
   },
   {
     id: '4', name: 'Premium Residential Project', location: 'Bhopal, Madhya Pradesh',
-    category: 'residential', tag: 'Residential · Bhopal',
+ tag: 'Residential · Bhopal',
     detail: 'Passenger Elevators', year: '2024',
     gradient: 'from-[#0e0e1a] via-[#080812] to-[#0a0a1a]',
   },
   {
     id: '5', name: 'Commercial Tower', location: 'Bhopal, Madhya Pradesh',
-    category: 'commercial', tag: 'Commercial · Bhopal',
+   tag: 'Commercial · Bhopal',
     detail: 'High-Speed Passenger Elevators', year: '2023',
     gradient: 'from-[#1a1a0a] via-[#12120a] to-[#181808]',
   },
   {
     id: '6', name: 'Healthcare Facility', location: 'Madhya Pradesh',
-    category: 'healthcare', tag: 'Healthcare · M.P.',
+   tag: 'Healthcare · M.P.',
     detail: 'Hospital Elevators', year: '2023',
     gradient: 'from-[#0a1a1a] via-[#081212] to-[#0a1818]',
   },
   {
     id: '7', name: 'Luxury Residential Complex', location: 'Bhopal, Madhya Pradesh',
-    category: 'residential', tag: 'Residential · Bhopal',
+    tag: 'Residential · Bhopal',
     detail: 'Passenger & Home Lifts', year: '2022',
     gradient: 'from-[#14080a] via-[#180a0c] to-[#120608]',
   },
   {
     id: '8', name: 'Industrial & Warehouse Facility', location: 'Madhya Pradesh',
-    category: 'industrial', tag: 'Industrial · M.P.',
+     tag: 'Industrial · M.P.',
     detail: 'Goods Lifts & Freight Elevators', year: '2022',
     gradient: 'from-[#081014] via-[#0a1218] to-[#081014]',
   },
