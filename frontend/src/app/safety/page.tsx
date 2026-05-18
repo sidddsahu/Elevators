@@ -6,7 +6,7 @@ import { CTASection } from '@/components/sections/CTASection'
 
 export const metadata: Metadata = {
   title: 'Safety Standards',
-  description: 'Every Onward Elevator meets EN 81-20, NBC 2016, IS 14665, and ISO 25745. Our commitment to safety is absolute.',
+  description: 'Safety Features Our elevators are heavily armed with advanced protective systems to guarantee zero-compromise safety for passengers',
 }
 
 export default function SafetyPage() {
@@ -20,7 +20,10 @@ export default function SafetyPage() {
           </Reveal>
           <Reveal delay={0.2}>
             <p className="text-silver text-[15px] font-light leading-[1.9] max-w-[560px]">
-              Every Onward Elevator is engineered and tested to exceed the most stringent international safety standards. Our commitment to safety is absolute and non-negotiable.
+              Safety Features Our elevators are
+heavily armed with advanced protective systems
+to guarantee zero-compromise safety for
+passengers.
             </p>
           </Reveal>
         </div>

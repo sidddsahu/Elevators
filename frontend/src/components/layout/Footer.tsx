@@ -141,9 +141,12 @@ export function Footer() {
 
             <h3 className="font-ui text-[10px] font-bold tracking-[0.2em] uppercase text-brand-white mb-3">Contact</h3>
             <div className="text-silver text-[12px] font-light leading-[2]">
-              <p>📞 +91 800 100 2345</p>
-              <p>✉ info@onwardelevators.com</p>
-              <p>📍 Indore, Madhya Pradesh, India</p>
+              <p>📞 0755-4941509</p>
+              <p>✉ onwardelevators@gmail.com
+</p>
+              <p>📍C-40, Vidhyanagar,
+Narmadapuram Road, Bhopal, Madhya Pradesh
+</p>
             </div>
           </div>
         </div>

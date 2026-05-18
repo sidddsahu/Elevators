@@ -115,19 +115,23 @@ export function HeroSection() {
       </motion.p>
 
       <h1 ref={titleRef} className="display-xl text-brand-white mb-4" style={{ zIndex: 2, opacity: 0 }}>
-        Premium<br />
-        <span className="text-outlined" style={{ fontStyle: 'normal' }}>Vertical</span>
-        <br />Transport
+     Step Forward <br />
+        <span className="text-outlined" style={{ fontStyle: 'normal' }}>Smoothly,</span>
+        <br /> Safely
       </h1>
 
-      <motion.p custom={2} variants={fade} initial="hidden" animate="show"
+      {/* <motion.p custom={2} variants={fade} initial="hidden" animate="show"
         className="font-display text-[clamp(20px,4vw,44px)] font-light italic text-gold mb-8" style={{ zIndex: 2 }}>
         Elevating Tomorrow
-      </motion.p>
+      </motion.p> */}
 
       <motion.p custom={3} variants={fade} initial="hidden" animate="show"
         className="text-silver text-[15px] font-light leading-[1.9] max-w-[520px] mx-auto mb-12" style={{ zIndex: 2 }}>
-        Premium elevator solutions for modern architecture. Precision engineering meets futuristic luxury in every vertical journey.
+       Premium, secure, and innovative
+vertical mobility solutions across Bhopal and
+Madhya Pradesh. Engineering absolute reliability
+for residential, commercial, and industrial
+landmarks.
       </motion.p>
 
       <motion.div custom={4} variants={fade} initial="hidden" animate="show"

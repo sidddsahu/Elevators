@@ -10,10 +10,10 @@ import { cn } from '@/lib/utils'
 type FormData = { name: string; email: string; phone: string; subject: string; message: string }
 
 const contactInfo = [
-  { icon: '📍', label: 'Head Office', value: '45, Vijay Nagar Square, Indore, MP 452010', href: null },
-  { icon: '📞', label: 'Sales & Enquiries', value: '+91 800 100 2345', href: 'tel:+918001002345' },
-  { icon: '🚨', label: '24/7 Emergency', value: '+91 800 100 1234', href: 'tel:+918001001234' },
-  { icon: '✉', label: 'Email', value: 'info@onwardelevators.com', href: 'mailto:info@onwardelevators.com' },
+  { icon: '📍', label: 'Head Office', value: 'C-40, Vidhyanagar,Narmadapuram Road, Bhopal, Madhya Pradesh', href: null },
+  { icon: '📞', label: 'Sales & Enquiries', value: '+0755-4941509', href: 'tel: 0755-4941509' },
+  { icon: '🚨', label: '24/7 Emergency', value: '+0755-4941509', href: 'tel: 0755-4941509' },
+  { icon: '✉', label: 'Email', value: 'onwardelevators@gmail.com', href: 'mailto:onwardelevators@gmail.com' },
   { icon: '💬', label: 'WhatsApp Business', value: 'Chat with us instantly', href: 'https://wa.me/918001002345' },
   { icon: '🕐', label: 'Business Hours', value: 'Mon–Sat: 9 AM – 6 PM | Emergency: 24/7', href: null },
 ]
@@ -100,7 +100,7 @@ export default function ContactPage() {
                     <animate attributeName="opacity" values="0.8;0" dur="2s" repeatCount="indefinite"/>
                   </circle>
                 </svg>
-                <p className="font-ui text-[10px] tracking-[0.2em] uppercase text-silver relative z-10">📍 Indore, Madhya Pradesh</p>
+                <p className="font-ui text-[10px] tracking-[0.2em] uppercase text-silver relative z-10">📍 Bhopal, Madhya Pradesh</p>
               </div>
             </Reveal>
           </div>
