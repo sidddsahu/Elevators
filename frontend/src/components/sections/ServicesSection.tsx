@@ -5,7 +5,7 @@ import { SERVICES } from '@/lib/data'
 
 export function ServicesSection() {
   return (
-    <section className="py-36">
+    <section className="py-16">
       <div className="section-container">
         {/* Header */}
         <div className="flex flex-col md:flex-row justify-between items-start md:items-end gap-6 mb-16">

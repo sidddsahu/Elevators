@@ -419,7 +419,7 @@ export function ProjectsSection() {
 const filtered = PROJECTS.slice(0, 6)
 
   return (
-    <section className="relative py-36 bg-[#050816] overflow-hidden">
+    <section className="relative py-16 bg-[#050816] overflow-hidden">
       {/* ================================= */}
       {/* Section Background Graphics */}
       {/* ================================= */}

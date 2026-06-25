@@ -2,11 +2,11 @@
 import { Reveal } from '@/components/ui/RevealSection'
 
 const features = [
-  {
-    num: '01',
-    title: 'German Engineering Precision',
-    desc: 'Our elevator systems are engineered using German-standard components and quality control processes, ensuring sub-millimeter accuracy in every installation.',
-  },
+  // {
+  //   num: '01',
+  //   title: 'German Engineering Precision',
+  //   desc: 'Our elevator systems are engineered using German-standard components and quality control processes, ensuring sub-millimeter accuracy in every installation.',
+  // },
   {
     num: '02',
     title: '24/7 Emergency Support',
@@ -22,25 +22,25 @@ const features = [
     title: 'Bespoke Interior Design',
     desc: 'Our in-house design team creates custom elevator cabins that complement your buildings architectural language — from minimalist steel to opulent marble.',
   },
-  {
-    num: '05',
-    title: '10-Year Warranty Standard',
-    desc: 'Every Onward installation comes with our comprehensive decade-long warranty covering all components, labour, and emergency callouts.',
-  },
+  // {
+  //   num: '05',
+  //   title: '10-Year Warranty Standard',
+  //   desc: 'Every Onward installation comes with our comprehensive decade-long warranty covering all components, labour, and emergency callouts.',
+  // },
 ]
 
 const certs = [
   { icon: '🏆', name: 'ISO 9001:2015' },
-  { icon: '🛡️', name: 'EN 81-20 / 50' },
-  { icon: '⚡', name: 'BEE 5-Star' },
-  { icon: '✓', name: 'NBC Compliant' },
-  { icon: '🌿', name: 'IGBC Green' },
-  { icon: '🔒', name: 'CE Certified' },
+  // { icon: '🛡️', name: 'EN 81-20 / 50' },
+  // { icon: '⚡', name: 'BEE 5-Star' },
+  // { icon: '✓', name: 'NBC Compliant' },
+  // { icon: '🌿', name: 'IGBC Green' },
+  // { icon: '🔒', name: 'CE Certified' },
 ]
 
 export function WhyUsSection() {
   return (
-    <section className="py-36">
+    <section className="py-16">
       <div className="section-container">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-24 items-start">
 
@@ -103,7 +103,7 @@ export function WhyUsSection() {
                 </div>
 
                 {/* Floating speed badge */}
-                <div className="border border-blue/20 bg-graphite-3/80 backdrop-blur-xl p-5 float-card">
+                {/* <div className="border border-blue/20 bg-graphite-3/80 backdrop-blur-xl p-5 float-card">
                   <div className="font-ui text-[9px] font-semibold tracking-[0.2em] uppercase text-blue-glow mb-1">
                     Max Speed Rating
                   </div>
@@ -111,7 +111,7 @@ export function WhyUsSection() {
                     6 <span className="text-base text-silver">m/s</span>
                   </div>
                   <div className="h-0.5 bg-gradient-to-r from-blue to-transparent mt-3 rounded-full" />
-                </div>
+                </div> */}
               </div>
             </Reveal>
           </div>

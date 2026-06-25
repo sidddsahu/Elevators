@@ -4,7 +4,7 @@ import { TESTIMONIALS } from '@/lib/data'
 
 export function TestimonialsSection() {
   return (
-    <section className="py-36">
+    <section className="py-16">
       <div className="section-container">
         <Reveal><p className="eyebrow mb-4">Client Voices</p></Reveal>
         <Reveal delay={0.1}>

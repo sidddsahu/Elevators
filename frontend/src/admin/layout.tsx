@@ -1,15 +1,4 @@
-// import AdminLayout from './components/AdminLayout'
 
-// export const metadata = {
-//   title: 'Admin Panel | Your Website',
-//   description: 'Website administration panel',
-// }
-
-// export default function Layout({ children }) {
-//   return <AdminLayout>{children}</AdminLayout>
-// }
-
-// app/admin/layout.tsx
 
 import type { Metadata } from "next";
 import type { ReactNode } from "react";

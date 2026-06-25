@@ -4,7 +4,7 @@ import { Reveal } from '@/components/ui/RevealSection'
 
 export function BrandIntroSection() {
   return (
-    <section className="py-36 bg-black">
+    <section className="py-16 bg-black">
       <div className="section-container">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-24 items-center">
 
@@ -73,9 +73,9 @@ export function BrandIntroSection() {
             {/* Floating speed badge */}
             <div className="absolute -right-5 bottom-16 bg-graphite-3/95 backdrop-blur-xl border border-blue/20 px-5 py-4 float-card shadow-glow-blue z-10">
               <div className="font-ui text-[9px] tracking-[0.2em] uppercase text-blue-glow mb-1">Speed Rating</div>
-              <div className="font-display text-3xl font-light text-brand-white">
+              {/* <div className="font-display text-3xl font-light text-brand-white">
                 6 <span className="text-base text-silver">m/s</span>
-              </div>
+              </div> */}
               <div className="h-0.5 bg-gradient-to-r from-blue to-transparent mt-2 rounded-full" />
             </div>
           </Reveal>

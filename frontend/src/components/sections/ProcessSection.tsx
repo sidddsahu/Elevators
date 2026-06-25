@@ -29,7 +29,7 @@ export function ProcessSection() {
   }, [])
 
   return (
-    <section ref={sectionRef} className="py-36 bg-graphite">
+    <section ref={sectionRef} className="py-16 bg-graphite">
       <div className="section-container">
         <Reveal><p className="eyebrow mb-4">How It Works</p></Reveal>
         <Reveal delay={0.1}>

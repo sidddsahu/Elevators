@@ -1,11 +1,11 @@
-// src/components/sections/StatsSection.tsx
+
 import { AnimatedCounter } from '@/components/ui/AnimatedCounter'
 import { STATS } from '@/lib/data'
 
 export function StatsSection() {
   return (
     <section className="border-t border-white/7 border-b border-white/7">
-      <div className="grid grid-cols-2 lg:grid-cols-4 divide-x divide-y lg:divide-y-0 divide-white/7">
+      <div className="grid grid-cols-1 lg:grid-cols-3 divide-x divide-y lg:divide-y-0 divide-white/7">
         {STATS.map((stat) => (
           <div
             key={stat.label}

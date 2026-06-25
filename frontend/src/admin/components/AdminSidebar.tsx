@@ -150,9 +150,9 @@ interface MenuItem {
 }
 
 const menuItems: MenuItem[] = [
-  { name: 'Dashboard', icon: <LayoutDashboard size={20} />, path: '/admin' },
+  // { name: 'Dashboard', icon: <LayoutDashboard size={20} />, path: '/admin' },
   { name: 'Projects',  icon: <FolderKanban size={20} />,   path: '/admin/projects' },
-  { name: 'Services',  icon: <Users size={20} />,           path: '/admin/services' },
+  // { name: 'Services',  icon: <Users size={20} />,           path: '/admin/services' },
   { name: 'Contacts',  icon: <Contact size={20} />,         path: '/admin/contacts' },
 ]
 

@@ -34,7 +34,7 @@ export function CTASection() {
         </Reveal>
 
         {/* Floating stat badges */}
-        <div className="absolute left-8 top-1/2 -translate-y-1/2 hidden xl:flex flex-col gap-3">
+        {/* <div className="absolute left-8 top-1/2 -translate-y-1/2 hidden xl:flex flex-col gap-3">
           <div className="bg-graphite-2 border border-white/7 px-4 py-3 float-card text-left">
             <div className="font-ui text-[9px] tracking-[0.15em] uppercase text-blue-glow mb-1">Response</div>
             <div className="font-display text-xl font-light text-brand-white">45 min</div>
@@ -45,7 +45,7 @@ export function CTASection() {
             <div className="font-ui text-[9px] tracking-[0.15em] uppercase text-blue-glow mb-1">Warranty</div>
             <div className="font-display text-xl font-light text-brand-white">10 Years</div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   )

@@ -11,12 +11,12 @@ if (typeof window !== 'undefined') {
 }
 
 const specs = [
-  { name: 'Maximum Speed', value: '6.0 m/s', pct: 90 },
-  { name: 'Load Capacity', value: 'Up to 6,300 kg', pct: 85 },
-  { name: 'Travel Height', value: 'Up to 450 m', pct: 95 },
-  { name: 'Energy Efficiency', value: 'Class A+++ BEE 5★', pct: 92 },
-  { name: 'Noise Level', value: '< 48 dB(A)', pct: 80 },
-  { name: 'IoT Monitoring', value: 'Real-time Diagnostics', pct: 100 },
+  { name: 'Maximum Speed', value: '1.5 m/s', pct: 90 },
+  { name: 'Load Capacity', value: 'Up to 1,500 kg', pct: 85 },
+  { name: 'Travel Height', value: 'Up to 30 m/s', pct: 95 },
+  { name: 'Energy Efficiency', value: 'Up to class', pct: 92 },
+  { name: 'Noise Level', value: '< 70 dB(A)', pct: 80 },
+  // { name: 'IoT Monitoring', value: 'Real-time Diagnostics', pct: 100 },
 ]
 
 export function TechnologySection() {
@@ -45,7 +45,7 @@ export function TechnologySection() {
   }, [])
 
   return (
-    <section ref={sectionRef} className="py-36 bg-graphite overflow-hidden">
+    <section ref={sectionRef} className="py-16 bg-graphite overflow-hidden">
       <div className="section-container">
         <Reveal><p className="eyebrow mb-4">Innovation</p></Reveal>
         <Reveal delay={0.1}>
@@ -86,13 +86,13 @@ export function TechnologySection() {
               <div className="font-ui text-[9px] tracking-[0.15em] uppercase text-blue-glow mb-1">VVVF Drive</div>
               <div className="font-display text-lg font-light text-brand-white">Active</div>
             </div>
-            <div className="absolute bottom-14 left-8 bg-graphite-2 border border-white/7 px-3.5 py-2.5 float-card-delay">
+            {/* <div className="absolute bottom-14 left-8 bg-graphite-2 border border-white/7 px-3.5 py-2.5 float-card-delay">
               <div className="font-ui text-[9px] tracking-[0.15em] uppercase text-blue-glow mb-1">Vibration</div>
               <div className="font-display text-lg font-light text-brand-white">0.02g</div>
-            </div>
+            </div> */}
             <div className="absolute bottom-6 right-10 bg-graphite-2 border border-white/7 px-3.5 py-2.5 float-card" style={{ animationDelay: '2s' }}>
               <div className="font-ui text-[9px] tracking-[0.15em] uppercase text-blue-glow mb-1">Noise</div>
-              <div className="font-display text-lg font-light text-brand-white">&lt;48 dB</div>
+              <div className="font-display text-lg font-light text-brand-white">&lt;70 dB</div>
             </div>
           </Reveal>
         </div>

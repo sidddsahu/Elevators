@@ -450,7 +450,7 @@ export const CORE_HIGHLIGHTS = [
 // ─── STATS ───────────────────────────────────────────────────────────────────
 
 export const STATS: StatItem[] = [
-  { value: 2400, suffix: '+', label: 'Installations Completed' },
+  // { value: 2400, suffix: '+', label: 'Installations Completed' },
   { value: 18,   suffix: '+', label: 'Years of Excellence' },
   { value: 98,   suffix: '%', label: 'Client Satisfaction Rate' },
   { value: 32,   suffix: '+', label: 'Cities Served' },
@@ -830,12 +830,12 @@ export const TECH_FEATURES: TechFeature[] = [
     description:
       'Advanced multi-layer hydraulic circuit protection integrating safety valves and limited-speed disconnecting valves. Highly compact structure with exceptionally low fault rates and straightforward daily maintenance.',
   },
-  {
-    icon: '📡',
-    title: 'IoT Remote Monitoring',
-    description:
-      '24/7 monitoring and real-time service updates for all installed units. Building managers and clients receive transparent communication including live status updates on service requests and estimated resolution times.',
-  },
+  // {
+  //   icon: '📡',
+  //   title: 'IoT Remote Monitoring',
+  //   description:
+  //     '24/7 monitoring and real-time service updates for all installed units. Building managers and clients receive transparent communication including live status updates on service requests and estimated resolution times.',
+  // },
   {
     icon: '🛡️',
     title: 'Multi-Layered Safety Protocols',
