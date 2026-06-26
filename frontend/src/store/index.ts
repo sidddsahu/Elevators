@@ -2,7 +2,7 @@ import { configureStore } from '@reduxjs/toolkit'
 import uiReducer from './slices/uiSlice'
 
 import projectReducer from './slices/projectSlice'
-import contactReducer from '../store/slices/contactSlice'
+// import contactReducer from '../store/slices/contactSlice'
 
 // ...import all other slices
 
@@ -11,7 +11,7 @@ export const store = configureStore({
     ui: uiReducer,
 
     projects: projectReducer,
-    contact:contactReducer  
+    // contact:contactReducer
 
 
   },
