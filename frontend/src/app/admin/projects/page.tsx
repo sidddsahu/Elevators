@@ -32,12 +32,12 @@ import {
   updateProject,
   deleteProject,
   clearProjectState
-} from '../../store/slices/projectSlice'
+} from '../../../store/slices/projectSlice'
 import * as XLSX from 'xlsx'
 import jsPDF from 'jspdf'
 import 'jspdf-autotable'
 import ToastNotification from '../components/ToastNotification'
-import type { AppDispatch } from '../../store'
+import type { AppDispatch } from '../../../store'
 
 /* =====================================================
    TYPES & INTERFACES

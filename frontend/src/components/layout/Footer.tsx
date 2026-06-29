@@ -568,6 +568,12 @@ export function Footer() {
             >
               Contact
             </Link>
+             <Link
+              href="/adminlogin"
+              className="text-silver text-[12px] font-light no-underline hover:text-brand-white transition-colors duration-300 cursor-none"
+            >
+              Admin
+            </Link>
           </div>
         </div>
       </div>

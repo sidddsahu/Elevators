@@ -16,6 +16,8 @@ const projectRoutes = require("./routes/ProjectRoute");
 const authRoutes = require("./routes/authRoute");
 const uploadRoutes = require("./routes/uploadRoute");
 const contactRoutes = require("./routes/contactRoutes");
+const videoRoutes = require("./routes/videoRoutes");
+
 const serviceRoutes = require("./routes/service.routes");
 // const adminRoutes = require("./routes/admin.routes");
 
@@ -103,6 +105,8 @@ app.get("/", (req, res) => {
 // ======================================================
 app.use("/api/projects", projectRoutes);
 app.use("/api/auth", authRoutes);
+app.use("/api/videos", videoRoutes);
+
 app.use("/api/upload", uploadRoutes);
 app.use("/api/contact", contactRoutes);
 app.use("/api/services", serviceRoutes);

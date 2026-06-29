@@ -98,7 +98,7 @@ import { useState, FormEvent, ChangeEvent } from "react";
 import { useRouter } from "next/navigation";
 import axios, { AxiosError } from "axios";
 
-import api from "../lib/api";
+import api from "../../lib/api";
 
 /* =========================
    TYPES

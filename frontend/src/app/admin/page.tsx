@@ -18,7 +18,7 @@ import {
 // ✅ Uncomment and fix path according to your project structure
 // import api from "@/lib/api";
 // Line 10 ke paas ye add karo
-import api from "../lib/api";
+import api from "../../lib/api";
 
 /* =========================
    TYPES
