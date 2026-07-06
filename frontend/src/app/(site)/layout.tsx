@@ -90,8 +90,26 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <main>{children}</main>
           <Footer />
           <Toast />
+
+          {/* Brochure Download Button — fixed, right side, vertically centered */}
+<a
+            href="/brochure.pdf"
+            download
+            aria-label="Download Brochure"
+            style={{
+              position: 'fixed',
+              right: 0,
+              top: '50%',
+              transform: 'translateY(-50%)',
+              zIndex: 50,
+              writingMode: 'vertical-rl',
+            }}
+            className="flex items-center gap-2 bg-white text-black px-3 py-4 rounded-l-md shadow-lg font-semibold text-sm tracking-wide hover:bg-yellow-500 transition-colors duration-300"
+          >
+            Download Brochure
+          </a>
+
         {/* </Providers> */}
       </body>
     </html>
-  )
-}
+  )}
