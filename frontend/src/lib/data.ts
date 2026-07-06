@@ -784,7 +784,7 @@ export const FAQ_ITEMS: FAQItem[] = [
   {
     question: 'What are your payment terms for new installations?',
     answer:
-      'We offer flexible payment structures typically structured as 30% advance, 40% on delivery, and 30% on commissioning. For large-scale projects with multiple units, we work with clients on customized milestone-based payment schedules.',
+      'We offer flexible payment structures typically structured as 10% advance order confirmation, 50% before production start, 20% on delivery, and 30% on commissioning. For large-scale projects with multiple units, we work with clients on customized milestone-based payment schedules.',
   },
   {
     question: 'Can existing elevator shafts be retrofitted with modern units?',
@@ -796,7 +796,7 @@ export const FAQ_ITEMS: FAQItem[] = [
     answer:
       'All Onward Elevators are designed and tested to meet National Building Code (NBC) 2016 requirements, BIS IS 14665 standards, and local municipal corporation specifications. We obtain and maintain all necessary operational licenses and technical certifications required by relevant statutory authorities, and handle all inspection and approval documentation as part of the installation package.',
   },
- 
+
 ]
 
 // ─── TECHNOLOGY FEATURES ──────────────────────────────────────────────────

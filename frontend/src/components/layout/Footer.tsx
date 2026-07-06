@@ -361,14 +361,14 @@ const socials = [
   },
   {
     label: 'Facebook',
-    href: 'https://facebook.com',
+    href: 'https://www.facebook.com/profile.php?id=61590045102721',
     icon: <FacebookIcon />,
     color: '#1877F2',
     hoverShadow: 'rgba(24,119,242,0.25)',
   },
   {
     label: 'Instagram',
-    href: 'https://instagram.com',
+    href: 'https://www.instagram.com/onwardelevators?igsh=MTFpNWo4bjM2cHphYg==',
     icon: <InstagramIcon />,
     color: '#E1306C',
     hoverShadow: 'rgba(225,48,108,0.25)',
